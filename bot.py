@@ -47,14 +47,14 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🔆 OWNER 🔆", url="https://tg://settings"),
+						InlineKeyboardButton("🔆 OWNER 🔆", url="https:///t.me/Telegram"),
 						InlineKeyboardButton("🔅 Cʜᴀɴɴᴇʟ 🔅", url="https://t.me/Telegram"),
 						InlineKeyboardButton("👥 Aʙᴏᴜᴛ ", callback_data="aboutbot")
                                         ],
                                         [
 						InlineKeyboardButton("👨‍🔧 Dᴇᴠs ", callback_data="aboutdevs"),
 						InlineKeyboardButton("💢 Sᴏᴜʀᴄᴇ ", url="https://GitHub.com"),
-						InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ ʙʏ", url="https://tg://settings/devices")
+						InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ ʙʏ", url="https://t.me/Telegram")
 					],
                                         [
 						InlineKeyboardButton("🔐 Cʟᴏsᴇ ", callback_data="closeMessage") 
